@@ -108,9 +108,7 @@ export function loadProductsFetch(fun) {
 
   return Promise;
 }
-loadProductsFetch().then(() => {
-  console.log("next step");
-});
+loadProductsFetch().then(() => {});
 
 export function loadProducts(fun) {
   const xhr = new XMLHttpRequest();
